@@ -1,0 +1,96 @@
+
+body{
+    background-color: rgb(247, 233, 215);
+}
+
+
+.main {
+    background-image: url(../img/page.webp);
+    background-size: 900px;
+    width: 500px;
+    height: 600px;
+    border: 2px solid rgb(110,205,234);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(123, 122, 122);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    /* background-color: white; */
+}
+
+
+
+
+.main::-webkit-scrollbar {
+    display: none;
+    /* background: green; */
+}
+
+.rhyme_title{
+    inline-size: 350px;
+    white-space: nowrap;
+    text-overflow: ellipsis  ;
+    overflow: hidden;
+    margin-left: 24px;
+}
+
+.updated_div{
+    margin-top: -9px;
+}
+
+.rhyme_updated{
+    margin-left: -5px;
+}
+
+.actions_div{
+    margin-top: -9px;
+}
+
+.rhyme_actions{
+    margin-left: 3px;
+    margin-bottom:37px;
+}
+
+.entry{
+    width: 350px;
+    font-size: 15px;
+    margin-left: -15px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Rock Salt', cursive;
+}
+
+a{
+    color: rgb(229, 154, 15);
+}
+
+a:hover{
+    color: black;
+}
+
+
+button{
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(229, 154, 15);
+    color: black;
+    padding: 3px 8px;
+    margin: 10px ;
+}
+
+.anav{
+    text-decoration:none;
+    color: black;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.anav:hover{
+    color: white;
+}

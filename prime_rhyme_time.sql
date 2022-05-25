@@ -1,0 +1,1 @@
+SELECT * FROM prime_rhyme_time_schema.users;

@@ -1,0 +1,223 @@
+
+
+
+
+.main {
+    background-image: url(../img/page.webp);
+    background-size: 900px;
+    box-shadow: 5px 5px 5px rgb(123, 122, 122);
+    width: 500px;
+    height: 600px;
+    border: 2px solid rgb(110,205,234);
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    /* background-color: white; */
+}
+
+.dictionaries{
+    margin-left: 500px;
+    margin-top: -550px;
+}
+
+#rhyme_post{
+    height: 200px;
+    width: 200px;
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgb(242,232,117);
+    box-shadow: 5px 5px 5px rgb(123, 122, 122);
+    overflow: scroll;
+}
+
+#print_rhyme{
+    display: flex ;
+}
+
+#rhyme_post:hover{
+    height: 270px;
+    width: 300px;
+    background-color: rgb(242,232,117);
+    box-shadow: 5px 5px 5px rgb(123, 122, 122);
+    transform: scale(1.2);
+    transition: 0.5s;
+    overflow: scroll;
+}
+
+#rhyming_dict{
+    background-color: rgb(242,232,117);
+    outline: none !important;
+    border-color: rgb(242,232,117);
+    border: 0px;
+    box-shadow: 0 0 0px rgb(242,232,117);
+    padding: 5px;
+    width: 182px;
+    font-weight: bold;
+}
+
+#dict_post{
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(71,188,224);
+    box-shadow: 5px 5px 5px rgb(123, 122, 122);
+    overflow: scroll;
+}
+
+#dict_post:hover{
+    margin-top: 50px;
+    height: 270px;
+    width: 300px;
+    background-color: rgb(71,188,224);
+    box-shadow: 5px 5px 5px rgb(123, 122, 122);
+    transform: scale(1.2);
+    transition: 0.5s;
+    overflow: scroll;
+}
+
+#dict{
+    background-color: rgb(71,188,224);
+    outline: none !important;
+    border-color: rgb(71,188,224);
+    border: 0px;
+    box-shadow: 0 0 0px rgb(71,188,224);
+    padding: 5px;
+    width: 170px;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    height: 0px;
+    width: 0px;
+    border: 0px;
+    opacity: 0%;
+}
+
+#content::-webkit-scrollbar {
+    display: none;
+    /* background: green; */
+}
+
+#rhyme_post::-webkit-scrollbar {
+    display: none;
+    /* background: green; */
+}
+
+#dict_post::-webkit-scrollbar {
+    display: none;
+    /* background: green; */
+}
+
+body{
+    /* background-image: url(../img/page.webp); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgb(247, 233, 215);
+    /* width: 1000px;
+    margin: auto; */
+}
+
+h4{
+    text-align: center;
+}
+
+
+.title{
+    border-radius: 20px;
+    border: 0px solid rgb(110,205,234);
+    background-color: rgb(238,233,219);
+    width: 400px;
+    height: 25px;
+    margin: 5px 0px 0px 60px;
+}
+
+.type{
+    border-radius: 20px;
+    border: 0px solid rgb(110,205,234);
+    background-color: rgb(238,233,219);
+    width: 400px;
+    height: 25px;
+    margin: -34px 0px 0px 60px;
+}
+
+textarea{
+    margin: 12px 0px 0px 60px;
+    font-size: 19px;
+    background: rgba(0, 151, 19, 0);
+    border: 0px;
+    line-height: 29.5px;
+}
+textarea:active, textarea:focus {
+    outline: none !important;
+    border-color: rgb(110,205,234);
+    /* box-shadow: 0 0 10px rgb(110,205,234); */
+}
+/* input[type=text] {
+    border-radius: 20px;
+    border: 0px solid rgb(110,205,234);
+    background-color: rgb(238,233,219);
+    width: 200px;
+    height: 25px;
+    margin: 35px 0px 0px 60px;
+} */
+
+input[type=text]:active, input[type=text]:focus {
+    background-color: rgb(238,233,219);
+    outline: none !important;
+    border-color: rgb(110,205,234);
+    box-shadow: 0 0 0px rgb(110,205,234);
+}
+
+
+
+button[type=submit]{
+    border-radius: 20px;
+    background-color: rgb(229, 154, 15);
+    color: black;
+    margin-top: -3px;
+    margin-left: 60px;
+    height: 25px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+button[type=submit]:hover{
+    color: white;
+}
+
+button{
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(229, 154, 15);
+    color: black;
+    padding: 3px 8px;
+    margin: 10px ;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+a:hover{
+    color: white;
+}
+/* nav{
+    margin-left: 250px;
+    justify-content: space-between;
+}
+.nav_right{
+    margin-right: 250px;
+
+} */
+
+.signup_span{
+    margin-left: 20%;
+    font-size: 14px;
+}

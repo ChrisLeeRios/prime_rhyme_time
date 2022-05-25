@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/style_dash.css">
+</head>
+
+<body>
+    <!-- This is the nav bar -->
+    <nav class="d-flex">
+        <button><a href="/home" class="anav">HOME</a></button>
+        <div class="nav_right d-flex">
+            <button><a href="/dashboard" class="anav">ENTRIES</a></button>
+            <button><a href="/add_entry" class="anav">ADD ENTRY</a></button>
+            <button><a href="/logout" class="anav">LOG OUT</a></button>
+        </div>
+    </nav>
+
+    <!-- This is the body  -->
+    <div class=" main ">
+        <h2>{{ user.username }}</h2>
+        {% for rhyme in rhymes %}
+        {% if rhyme.user_id == user.id: %}
+
+            <div class="gap-3 entry d-flex">
+                <p>Title:</p>
+                <p class="rhyme_title">{{ rhyme.title }}</p>
+            </div>
+            <div class="d-flex gap-3 entry updated_div">
+                <p>Updated:</p>
+                <p class="rhyme_updated">{{ rhyme.created_at.strftime("%b %d %Y") }}</p>
+            </div>
+            <div class="d-flex gap-3 entry actions_div">
+                <p>Actions:</p>
+                <p class="rhyme_actions"><a href="/edit_entry/{{ rhyme.id }}">Open</a> | <a href="/delete_entry/{{ rhyme.id }}">Delete</a></p>
+            </div>
+            {% endif %}
+            {% endfor %}
+
+    </div>
+</body>
+
+</html>
