@@ -63,3 +63,29 @@ dictPost.addEventListener('submit', function(event){
 
 //     }
 // }
+
+
+
+document.getElementById("r_btn").onclick = function(){
+    document.getElementById("content").style.color = 'red';
+}
+
+document.getElementById("g_btn").onclick = function(){
+    document.getElementById("content").style.color = 'green';
+}
+
+document.getElementById("b_btn").onclick = function(){
+    document.getElementById("content").style.color = 'blue';
+}
+
+document.getElementById("bk_btn").onclick = function(){
+    document.getElementById("content").style.color = 'black';
+}
+
+document.getElementById("p_btn").onclick = function(){
+    document.getElementById("content").style.color = 'purple';
+}
+
+document.getElementById("o_btn").onclick = function(){
+    document.getElementById("content").style.color = 'rgb(229, 154, 15)';
+}
