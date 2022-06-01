@@ -1,3 +1,3 @@
 API that were used
-    datamuse.com/api/
-    https://dictionaryapi.dev/
+    - datamuse.com/api/
+    - https://dictionaryapi.dev/ 
