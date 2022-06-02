@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn prime_rhyme_time.wsgi
