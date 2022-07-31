@@ -1,6 +1,6 @@
 # Prime Rhyme Time
 
-An Online Helper to assist writers in creating and storing new writtens made in Python!
+An Online Helper to assist writers in creating and storing new writtens made with Python, Flask, MySQL!
 
 Includes a Rhyming Dictionary API and Dictionary API to further assist the creative process.
 
