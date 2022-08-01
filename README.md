@@ -1,6 +1,6 @@
 # Prime Rhyme Time
 
-A dictionary/thesaurus assistant aimed at helping writers with rhymes, similies, definitions, and more.
+A dictionary/thesaurus assistant aimed at helping writers with rhymes, similes, definitions, and more.
 
 Built with Python, Flask and MySQL utilizing the Dictionary and Rhyming APIs.
 
